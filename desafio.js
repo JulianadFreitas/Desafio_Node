@@ -36,8 +36,6 @@ import readlineSync from "readline-sync";
             });
             
             const IndexToRemove = readlineSync.keyInSelect(optionsCheck , 'What to do do you want to remove?');
-
-            
              tasks.splice(IndexToRemove, 1)
         }
 
